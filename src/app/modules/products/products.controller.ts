@@ -1,9 +1,9 @@
 import { Request, Response } from "express";
 import { productService } from "./products.services";
 
-const createProduct = async (req: Request, res: Response) => {
+const createBicycle = async (req: Request, res: Response) => {
   try {
-   const payload = req.body.products;   
+   const payload = req.body;   
   //  const zodParsedData = BicleScema.parse(payload);
    const result = await productService.createProductServiceInDB(payload);
    
@@ -13,10 +13,10 @@ const createProduct = async (req: Request, res: Response) => {
      data: result,
    });
    
-  } catch (error:any) {
+  } catch (error) {
    res.status(405).json({
    status:false,
-   message: error.message || 'Something went wrong',
+   message: error,
    })
   }
  };
@@ -31,10 +31,10 @@ const getAllBicycles = async (req: Request, res: Response) => {
      data: result,
    });
    
-  } catch (error:any) {
+  } catch (error) {
    res.status(405).json({
    status:false,
-   message: error.message || 'Something went wrong',
+   message: error,
    })
   }
  };
@@ -49,10 +49,10 @@ const getASingleBicycle = async (req: Request, res: Response) => {
      data: result,
    });
    
-  } catch (error:any) {
+  } catch (error) {
    res.status(405).json({
    status:false,
-   message: error.message || 'Something went wrong',
+   message: error,
    error: error,
    })
   }
@@ -68,10 +68,10 @@ const deleteASingeBicycle = async (req: Request, res: Response) => {
      data: result,
    });
    
-  } catch (error:any) {
+  } catch (error) {
    res.status(405).json({
    status:false,
-   message: error.message || 'Something went wrong',
+   message: error,
    error: error,
    })
   }
@@ -89,17 +89,17 @@ const updateBicycle = async (req: Request, res: Response) => {
      data: result,
    });
    
-  } catch (error:any) {
+  } catch (error) {
    res.status(405).json({
    status:false,
-   message: error.message || 'Something went wrong',
+   message: error,
    error: error,
    })
   }
  };
  
  export const productController = {
-  createProduct,
+  createBicycle,
   getAllBicycles,
   getASingleBicycle,
   deleteASingeBicycle,

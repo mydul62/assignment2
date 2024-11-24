@@ -15,8 +15,8 @@ const getAllBicyclesFromDB =async ()=>{
   const result = await bicycleModel.findById(id)
   return result;
  }
+ 
  const updateBicleFromDb =async (payload:Bicycle,id:string)=>{
- console.log(payload)
   const result = await bicycleModel.findOneAndUpdate({_id:id}, { $set: payload },{new:true})
   return result;
  }

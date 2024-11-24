@@ -1,0 +1,97 @@
+{
+  "success": true,
+  "message": "Bicycles retrieved successfully",
+  "data": [
+      {
+          "_id": "674311475b14d900c02a6872",
+          "name": "Roadster 5000",
+          "brand": "SpeedX",
+          "price": 300,
+          "type": "Road",
+          "description": "A premium road bike designed for speed and performance.",
+          "quantity": 20,
+          "inStock": true,
+          "createdAt": "2024-11-24T11:43:03.491Z",
+          "updatedAt": "2024-11-24T11:43:03.491Z",
+          "__v": 0
+      },
+      {
+          "_id": "674311f75b14d900c02a6874",
+          "name": "Roadster 5000",
+          "brand": "SpeedX",
+          "price": 300,
+          "type": "Road",
+          "description": "A premium road bike designed for speed and performance.",
+          "quantity": 20,
+          "inStock": true,
+          "createdAt": "2024-11-24T11:45:59.961Z",
+          "updatedAt": "2024-11-24T11:45:59.961Z",
+          "__v": 0
+      },
+      {
+          "_id": "674312035b14d900c02a6876",
+          "name": "Mountain Master",
+          "brand": "Climber",
+          "price": 500,
+          "type": "Mountain",
+          "description": "Built for the toughest terrains with enhanced durability.",
+          "quantity": 15,
+          "inStock": true,
+          "createdAt": "2024-11-24T11:46:11.122Z",
+          "updatedAt": "2024-11-24T11:46:11.122Z",
+          "__v": 0
+      },
+      {
+          "_id": "6743120d5b14d900c02a6878",
+          "name": "Urban Cruiser",
+          "brand": "CityRide",
+          "price": 200,
+          "type": "Hybrid",
+          "description": "Perfect for city rides with comfort and style.",
+          "quantity": 30,
+          "inStock": true,
+          "createdAt": "2024-11-24T11:46:21.048Z",
+          "updatedAt": "2024-11-24T11:46:21.048Z",
+          "__v": 0
+      },
+      {
+          "_id": "674312155b14d900c02a687a",
+          "name": "Trail Blazer",
+          "brand": "Adventure",
+          "price": 450,
+          "type": "Mountain",
+          "description": "A rugged mountain bike for adventure seekers.",
+          "quantity": 5,
+          "inStock": true,
+          "createdAt": "2024-11-24T11:46:29.201Z",
+          "updatedAt": "2024-11-24T11:46:29.201Z",
+          "__v": 0
+      },
+      {
+          "_id": "674312255b14d900c02a687d",
+          "name": "Speed Racer",
+          "brand": "Velocity",
+          "price": 400,
+          "type": "Road",
+          "description": "Optimized for racing with aerodynamic features.",
+          "quantity": 8,
+          "inStock": true,
+          "createdAt": "2024-11-24T11:46:45.580Z",
+          "updatedAt": "2024-11-24T11:46:45.580Z",
+          "__v": 0
+      },
+      {
+          "_id": "6743122d5b14d900c02a687f",
+          "name": "Eco Rider",
+          "brand": "GreenCycle",
+          "price": 150,
+          "type": "Hybrid",
+          "description": "An eco-friendly bike for casual riders.",
+          "quantity": 25,
+          "inStock": true,
+          "createdAt": "2024-11-24T11:46:53.882Z",
+          "updatedAt": "2024-11-24T11:46:53.882Z",
+          "__v": 0
+      }
+  ]
+}

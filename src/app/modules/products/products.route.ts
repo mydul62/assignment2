@@ -3,10 +3,10 @@ import { productController } from './products.controller';
 const router = express.Router();
 
 
-router.post('/products',productController.createProduct);
-router.get('/products',productController.getAllBicycles);
-router.get('/products/:productId',productController.getASingleBicycle);
-router.delete('/products/:productId',productController.deleteASingeBicycle);
-router.put('/products/:productId',productController.updateBicycle);
+router.post('/',productController.createBicycle);
+router.get('/',productController.getAllBicycles);
+router.get('/:productId',productController.getASingleBicycle);
+router.delete('/:productId',productController.deleteASingeBicycle);
+router.put('/:productId',productController.updateBicycle);
 
 export const productRouters = router;
